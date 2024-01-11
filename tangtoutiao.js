@@ -1,31 +1,30 @@
-
-/************************
-
-脚本功能：91视频 解锁所有视频
-⚠️⚠️⚠️食用方法:直接看会员视频，个人页面不会变
-
-下载地址：https://app.nzmn.org/i-W69UW35 
-软件版本：所有
+/*
+ *
+ *
+脚本功能：m3u8视频获取完整版地址
+软件版本：&&
+下载地址：&&
 脚本作者：伟人
-作者QQ:55749353
-更新时间：2023-07-2
-问题反馈：QQ+55749353
-QQ会员群：添加作者
-TG反馈群：https://t.me/WeiRenOvO
-TG频道群：https://t.me/WeiRenQAQ
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
-**************************************
-
+更新时间：2023.07.28
+电报频道：https://t.me/WeiRenQAQ
+问题反馈：https://t.me/WeiRenOvO
+使用声明：⚠️此脚本仅供学习与交流，
+        请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
 [rewrite_local]
-
-
+# > m3u8获取完整版地址
 ^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
-[mitm]
 
+[mitm]
 hostname = *17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*,*mnghx*,*czbt*,*ppapi*,*vrtwf*,*ogrwd*,*vrtwf*,*.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com,*.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.xgfipub.cn,*.tbrapi.org,
 
-*****************************/
+*
+*
+*/
+
+
+
+
 
 
 
