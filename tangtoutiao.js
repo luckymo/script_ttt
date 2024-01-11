@@ -17,7 +17,7 @@
 ^https?:\/\/.h5play\.guangxu124\.cn\/ url 302 https://long.guangxu124.cn/
 
 [mitm]
-hostname = h5play.guangxu124.cn,*17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*,*mnghx*,*czbt*,*ppapi*,*vrtwf*,*ogrwd*,*vrtwf*,*.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com,*.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.xgfipub.cn,*.tbrapi.org,
+hostname = long.guangxu124.cn,h5play.guangxu124.cn,*17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*,*mnghx*,*czbt*,*ppapi*,*vrtwf*,*ogrwd*,*vrtwf*,*.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com,*.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.xgfipub.cn,*.tbrapi.org,
 
 *
 *
