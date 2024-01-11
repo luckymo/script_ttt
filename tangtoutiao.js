@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > m3u8获取完整版地址
-^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)\/(videos[0-9]+|video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
+^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|long|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)\/(videos[0-9]+|video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
 ^https?:\/\/.h5play\.guangxu124\.cn\/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url 302 https://long.guangxu124.cn\/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$
 
 [mitm]
