@@ -14,18 +14,12 @@ https://5e.kccber.com/aff-j9CEe
 https://ttt.aff009.net/af/caJtT
 https://pili.app003.live/?code=HpPX&c=6374
 
-脚本作者：ios鸡神
-更新时间：2023—11-13
-TG频道群：https://t.me/iosapp520
-使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
-*******************************
 
 [rewrite_local]
 
-^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header reject
+^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
 
-^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header reject-img
+
 
 
 
