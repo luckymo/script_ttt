@@ -14,7 +14,7 @@
 [rewrite_local]
 # > m3u8获取完整版地址
 ^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|long|tp3|pic)\.(snowing|beibeini*|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn)\/(videos[0-9]+|video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
-^https?:\/\/.h5play\.guangxu124\.cn\/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url 302 https://long.guangxu124.cn\/(video[0-9]+|video2|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$
+^https?:\/\/.h5play\.guangxu124\.cn\/ url 302 https://long.guangxu124.cn/
 
 [mitm]
 hostname = h5play.guangxu124.cn,*17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*,*mnghx*,*czbt*,*ppapi*,*vrtwf*,*ogrwd*,*vrtwf*,*.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com,*.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.xgfipub.cn,*.tbrapi.org,
