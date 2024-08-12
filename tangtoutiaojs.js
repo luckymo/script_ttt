@@ -1,146 +1,24 @@
-    /*
-综合LSP破解
-目前支持91短视频、汤头条
+/*
+微信公众号：少年歌行pro
+转载请注明出处
+tg:https://t.me/sngxpro
 
-
+圈X
 [rewrite_local]
+#汤头条解锁视频无限观看（付费视频未破解，待高人）
 
-#91短视频
-^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/JungegeCN/JGG/master/91-ttt.js
-#汤头条
-^https?:\/\/.+\.(.*tbrapi.*)\.(com|tips|app|xyz)(:\d{2,5})?\/api.php/.*$ url script-response-body https://raw.githubusercontent.com/JungegeCN/JGG/master/91-ttt.js
+^https:\/\/dpi4\.dr4gv5cd\.com\/pwa.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiaojs.js
 
-[MITM]
-hostname: *.i91porn.*,*.tbrapi.*
+[mitm]
+hostname= dpi4.dr4gv5cd.com
 
-下载链接：
-91短视频：app.91porn005.me:2082/aff-aB6v2
-汤头条：https://ttt.tangbr.com/af/gkjX
+下载地址：ttt.tips
 
 
 
 */
-let obj = JSON.parse($response.body);
-const payne = init()
-const urlStr = `http://45.138.69.207/api/crypto`;
-// const urlStr = `http://192.168.1.104/api/crypto`;
 
-decrypt();
 
-function decrypt(){
-    let platform = "";
-    if ($request.url.indexOf("91") !== -1) {
-        platform = "91dsp";
-    } else if ($request.url.indexOf("tbrapi") !== -1) {
-        platform = "ttt";
-    }
-    let url = { url: urlStr, headers: {}}
-    //其他平台请修改platform相应的值
-    url.body = `flag=decrypt&platform=` + platform + `&plaintext=&ciphertext=` + obj.data;
-    payne.post(url, (error, response, data) => {
-        const resBody = JSON.parse(data);
-        //解密网站返回的数据取data才是91的数据包,修改result返回你想要的结果
-        let result = JSON.parse(resBody.data);
-        if ("91dsp" === platform) {
-            result = set91(result);
-        }else if ("ttt" === platform) {
-            result = setTtt(result);
-        }
-        encrypt(platform,JSON.stringify(result));
-    })
-}
 
-function encrypt(platform,str){
-    // payne.msg("请求内容:", "", str);
-    let url = { url: urlStr, headers: {}}
-    //其他平台请修改platform相应的值
-    url.body = `flag=encrypt&platform=` + platform + `&ciphertext=&plaintext=` + str;
-    payne.post(url, (error, response, data) => {
-        let result = JSON.parse(data);
-        obj.data = result.data;
-        let body=JSON.stringify(obj);
-        payne.done(body);
-    })
-}
-
-function set91(result) {
-    result.isVip = true;
-    if (result.hasOwnProperty('data')) {
-        if (result.data.hasOwnProperty('success')) {
-            result.data.success = true;
-        }
-        if (result.data.hasOwnProperty('info')) {
-            result.data.info.isVip = true;
-            result.data.info.watchCount = 9999999;
-            result.data.info.canWatchCount = "9999999";
-            result.data.info.watchStr = "想看就看";
-            result.data.info.coins = 9999999;
-            result.data.info.vip_level = 5;
-            result.data.info.level = 99;
-            result.data.info.upLevel = 9;
-            result.data.info.originalLevel = 9;
-        }
-    }
-    return result;
-}
-function setTtt(result) {
-    result.isVip = true;
-    result.daily_view = 9999999;
-    if (result.hasOwnProperty('data')) {
-        if (result.data.hasOwnProperty('code')) {
-            result.data.code = 0;
-            result.data.msg = "无汤币限制";
-        }
-        if (result.data.hasOwnProperty('nickname')) {
-            result.data.vip = true;
-            result.data.coins = 9999999;
-            result.data.free_view_cnt = 9999999;
-            result.data.vip_level = 9;
-            result.data.expired_at = "2099-11-07";
-        }
-    }
-    return result;
-}
-function init() {
-    isSurge = () => {
-        return undefined === this.$httpClient ? false : true
-    }
-    isQuanX = () => {
-        return undefined === this.$task ? false : true
-    }
-    getdata = (key) => {
-        if (isSurge()) return $persistentStore.read(key)
-        if (isQuanX()) return $prefs.valueForKey(key)
-    }
-    setdata = (key, val) => {
-        if (isSurge()) return $persistentStore.write(key, val)
-        if (isQuanX()) return $prefs.setValueForKey(key, val)
-    }
-    msg = (title, subtitle, body) => {
-        if (isSurge()) $notification.post(title, subtitle, body)
-        if (isQuanX()) $notify(title, subtitle, body)
-    }
-    log = (message) => console.log(message)
-    get = (url, cb) => {
-        if (isSurge()) {
-            $httpClient.get(url, cb)
-        }
-        if (isQuanX()) {
-            url.method = 'GET'
-            $task.fetch(url).then((resp) => cb(null, {}, resp.body))
-        }
-    }
-    post = (url, cb) => {
-        if (isSurge()) {
-            $httpClient.post(url, cb)
-        }
-        if (isQuanX()) {
-            url.method = 'POST'
-            $task.fetch(url).then((resp) => cb(null, {}, resp.body))
-        }
-    }
-    done = (value = {}) => {
-        $done(value)
-    }
-    return { isSurge, isQuanX, msg, log, getdata, setdata, get, post, done }
-}
+body = $response.body.replace(/data":"\w+/g, 'data":"57B1759F5B1835A54BBF8BD02753C5B28B7FDCF86C2B8FD0C77249B432A3416D78314BF53FD8FA09BC93A17076479A52B676BCEFF06E876B624484A87EB4EF569B6C6DB70ED6CB14A257A945B62F6737D39407D5158CD4CFF387DDCC98F6797865F1A6929F0C7FA5D82FE4CC19AA9C767427AE0DDCDA3724EE8A36AA22D6FC7A8D9440A3BF58E2B803ADDAD738182F6533C3E0092862F7075FB2F1739E58B99A448BF66782910193F69960057138F19967D3124122923F180679CDCEA902AD9E4D977B17920E7381210DE504B8AF73D3E7B02C2236FE0C6CD0BA73AEE1A046789077A43CEBEA6D10648CFF73A7B9CF2548805BA94E48AD61940A06E709388DD6B1F79059A447712017905B574FBC128EB0C5D96605272C7DA2F6C1AF427084F03B073EB531BBF8800C116CA47A01D58BE3783D858EB8B48087D3A41684A9A809336A7343F6C46804A9C5019AC9A4D0B9FE1B1519CCAD593C2EF959861D5B9092A1BB027E62BE26D857D99189301481153233B41F134DF92967F9EE20F14989DF79A86023E086618CFE5B0107EB546EB96550993BEFF12D91D1B3017608CB1CFDCB79436B18F6375D0B1316CB77BC853D8D0E436BB4585927208959EB1B665EC51320DC3CA8715DCFCA9DECD51C470F73CB5A864B67F51257A4F60B42717F1A786A2430F4F27C24F4F600FED3E1078D3864595EE2DBA298BD6A0E6F05FB0B701E5BAA6D12422521F5DD5164B21E8C52C2548C3C81840C856ADB204B2459A640219AC8D6B26503B4F311E5962C1EC41991CAB9E652A0A469B95211CAB55EA02413674A633DC1BF111A8AC4DF8ADCBAD64633015FF1FC6E1D6D131CEECB47579CE5440006');
+$done({body});
