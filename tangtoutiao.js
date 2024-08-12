@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > m3u8获取完整版地址
-^https?:\/\/(120play|10play|tp[0-9]+|tp*|tp1|key1|h5play|tp3|pic)\.(.*|shnyhkj|pvlzxh|yangyang*|yangyang[0-9]+|snowing|beibeini*|beibeini[0-9]+|beibeini66|guangxu124|hsbuvmy|kgammib)\.(ren|cn|com)\/(videos[0-9]+|video[0-9]+|video2|videos2.|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
+^https?:\/\/(120play|10play|tp[0-9]+|key1|h5play|tp3|pic)\.(shnyhkj|pvlzxh|yangyang*|yangyang[0-9]+|snowing|beibeini[0-9]+|guangxu124|hsbuvmy|kgammib)\.(ren|cn|com)\/(videos[0-9]+|video[0-9]+|video2|videos2.|videos.|watch|static|upload|watch[0-9]+)\/.*\/.*(\.ts|\.m3u8)*\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/luckymo/script_ttt/main/tangtoutiao.js
 
 
 [mitm]
