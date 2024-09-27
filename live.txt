@@ -1,4 +1,4 @@
-央视频道,#genre#
+央视频道,#genre# shishi
 CCTV-1高清,http://111.193.225.167:8888/rtp/239.3.1.129:8008
 CCTV-2高清,http://111.193.225.167:8888/rtp/239.3.1.60:8084
 CCTV-3高清,http://111.193.225.167:8888/rtp/239.3.1.172:8001
@@ -4706,4 +4706,4 @@ CGTN,http://sweetown.fun:4000/rtp/239.3.1.16:8056
 爱生活,http://sweetown.fun:4000/rtp/239.3.1.86:4120
 家有购物,http://sweetown.fun:4000/rtp/239.3.1.186:8001
 延庆TV,http://sweetown.fun:4000/rtp/239.3.1.187:8001
-中国交通,http://sweetown.fun:4000/rtp/239.3.1.188:8001
+
