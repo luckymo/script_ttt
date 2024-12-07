@@ -130,9 +130,9 @@ http://182.92.109.190:1668/72/72.php?id=cctv2
 #EXTINF:-1  tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png"  group-title="央视联通",CCTV3
 http://182.92.109.190:1668/72/72.php?id=cctv3
 #EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png"  group-title="央视联通",CCTV4
-http://182.92.109.190:1668/72/72.php?id=cctv4a
-#EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png"  group-title="央视联通",CCTV4
 http://182.92.109.190:1668/72/72.php?id=cctv4o
+#EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png"  group-title="央视联通",CCTV4
+http://182.92.109.190:1668/72/72.php?id=cctv4a
 #EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png"  group-title="央视联通",CCTV4
 http://182.92.109.190:1668/72/72.php?id=cctv4
 #EXTINF:-1  tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png"  group-title="央视联通",CCTV5
@@ -140,9 +140,9 @@ http://182.92.109.190:1668/72/72.php?id=cctv5
 #EXTINF:-1  tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png"  group-title="央视联通",CCTV5+
 http://182.92.109.190:1668/72/72.php?id=cctv5p
 #EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png"  group-title="央视联通",CCTV6
-http://182.92.109.190:1668/72/72.php?id=cctv6
-#EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png"  group-title="央视联通",CCTV6
 http://182.92.109.190:1668/tianyi/tianyi.php?id=cctv6
+#EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png"  group-title="央视联通",CCTV6
+http://182.92.109.190:1668/72/72.php?id=cctv6
 #EXTINF:-1  tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png"  group-title="央视联通",CCTV7
 http://182.92.109.190:1668/72/72.php?id=cctv7
 #EXTINF:-1  tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png"  group-title="央视联通",CCTV8
