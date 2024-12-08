@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml","http://epg.51zmt.top:8000/difang.xml","http://epg.51zmt.top:8000/e.xml","https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="" tvg-name="湖南卫视HD" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/湖南卫视HD.png" group-title="卫视联通",湖南卫视HD
-http://106.112.243.195:29995/live/hunwshd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV1.png" group-title="央视联通",CCTV1
 http://27.41.246.255:9003//hls/4/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV2" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV2.png" group-title="央视联通",CCTV2
