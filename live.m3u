@@ -1,40 +1,4 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml","http://epg.51zmt.top:8000/difang.xml","http://epg.51zmt.top:8000/e.xml","https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV1.png" group-title="央视联通",CCTV1
-http://27.41.246.255:9003//hls/4/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV2" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV2.png" group-title="央视联通",CCTV2
-http://27.41.246.255:9003//hls/5/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV3" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV3.png" group-title="央视联通",CCTV3
-http://27.41.246.255:9003//hls/6/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV4" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV4.png" group-title="央视联通",CCTV4
-http://27.41.246.255:9003//hls/7/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5.png" group-title="央视联通",CCTV5
-http://27.41.246.255:9003//hls/8/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5+.png" group-title="央视联通",CCTV5+
-http://39.165.196.149:9003//hls/16/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV6.png" group-title="央视联通",CCTV6
-http://27.41.246.255:9003//hls/9/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV7.png" group-title="央视联通",CCTV7
-http://27.41.246.255:9003//hls/10/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV8" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV8.png" group-title="央视联通",CCTV8
-http://27.41.246.255:9003//hls/11/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV9" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV9.png" group-title="央视联通",CCTV9
-http://27.41.246.255:9003//hls/12/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV10" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV10.png" group-title="央视联通",CCTV10
-http://27.41.246.255:9003//hls/13/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV11" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV11.png" group-title="央视联通",CCTV11
-http://27.41.246.255:9003//hls/14/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV12" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV12.png" group-title="央视联通",CCTV12
-http://27.41.246.255:9003//hls/15/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV13" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV13.png" group-title="央视联通",CCTV13
-http://27.41.246.255:9003//hls/16/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV14" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV14.png" group-title="央视联通",CCTV14
-http://27.41.246.255:9003//hls/17/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV15.png" group-title="央视联通",CCTV15
-http://27.41.246.255:9003//hls/18/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV16.png" group-title="央视联通",CCTV16
-http://223.72.123.60:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV17.png" group-title="央视联通",CCTV17
-http://27.41.246.255:9003//hls/19/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="北京卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/北京卫视.png" group-title="卫视联通",北京卫视
 http://27.41.246.255:9003//hls/22/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="东方卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/东方卫视.png" group-title="卫视联通",东方卫视
@@ -87,6 +51,8 @@ http://123.149.112.105:9003//hls/3/index.m3u8
 http://123.149.112.105:9003//hls/4/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5.png" group-title="央视联通",CCTV5
 http://123.149.112.105:9003//hls/5/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5+.png" group-title="央视联通",CCTV5+
+http://159.75.85.63:36666/migu/641886773.m3u8?migutoken=4515662c0039aa36a858729be45e56e6dcc81f03b933e0af3de65f0544590668c37bd6ee12232536e182c3491d69e0ecafa7912ebe15bf4f4fb697f6aa2b8a57ac5a81ccfe0838a14fdac9722e
 #EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV6.png" group-title="央视联通",CCTV6
 http://123.149.112.105:9003//hls/6/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV7.png" group-title="央视联通",CCTV7
@@ -105,6 +71,8 @@ http://123.149.112.105:9003//hls/12/index.m3u8
 http://123.149.112.105:9003//hls/13/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV14" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV14.png" group-title="央视联通",CCTV14
 http://123.149.112.105:9003//hls/14/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV16.png" group-title="央视联通",CCTV16
+https://stream1.freetv.fun/f5e0459fd9f11d93ac18af88196997db1c71aeb6d27ce1bd24faccb628652629.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV15.png" group-title="央视联通",CCTV15
 http://123.149.112.105:9003//hls/15/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV1" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV1.png" group-title="央视联通",CCTV1
@@ -117,8 +85,6 @@ http://159.75.85.63:36666/migu/624878271.m3u8?migutoken=5133e15bea9cf24ed0bf80a4
 http://159.75.85.63:36666/migu/631780421.m3u8?migutoken=d39f90b726a26fa506278afdfbbb544218d69a8192b22afcb6fb2e3f5c0bc637be1428b111ad26b98eab45790edc44823b4198bf72e18511a374aef1f71963022b4e24205b40b78365ce529b01
 #EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5.png" group-title="央视联通",CCTV5
 http://159.75.85.63:36666/migu/641886683.m3u8?migutoken=f8f9e48f1940f388830c8fa8ffb46486ac40e57631873ecd4975141934a4eb6a7548be9e2a919f95f78d9a9c6ba357e9c688f2b814cc712bccb1c46666ef5bb47c05cc3dbd369fad30b740fe75
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV5+.png" group-title="央视联通",CCTV5+
-http://159.75.85.63:36666/migu/641886773.m3u8?migutoken=4515662c0039aa36a858729be45e56e6dcc81f03b933e0af3de65f0544590668c37bd6ee12232536e182c3491d69e0ecafa7912ebe15bf4f4fb697f6aa2b8a57ac5a81ccfe0838a14fdac9722e
 #EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV6.png" group-title="央视联通",CCTV6
 http://159.75.85.63:36666/migu/624878396.m3u8?migutoken=db32021a904f1bc46013da6f3ac603605f469cef55fec837555f12496f4810b8545bec7730ed10f27a26224a9407859e7a655b9e3c1c45d9722af40097639969faa7cb446d740ace5becd78351
 #EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV7.png" group-title="央视联通",CCTV7
@@ -139,8 +105,6 @@ http://159.75.85.63:36666/migu/608807423.m3u8?migutoken=70643933724525747ab81b45
 http://159.75.85.63:36666/migu/624878440.m3u8?migutoken=3230e0cd595c285dce8904d7c81777a4c45577395a5e8511239a40a0a425d33d89ec886527faff2fb96a3fbca33098f943338d3997fd4fa4728de6076bfea48a480dcac901ada4c26184acc09c
 #EXTINF:-1 tvg-id="" tvg-name="CCTV15" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV15.png" group-title="央视联通",CCTV15
 http://159.75.85.63:36666/migu/673168223.m3u8?migutoken=907098853a398468c02118b81fbb12ebe643be8310c96518e56c64c6c4ceb5e546973e8770763d19b1090435a69244296c3e9ba399e88f3652a707095fd78d1158f037d61aa400eaa43e5a8cb8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV16.png" group-title="央视联通",CCTV16
-https://stream1.freetv.fun/f5e0459fd9f11d93ac18af88196997db1c71aeb6d27ce1bd24faccb628652629.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV17" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV17.png" group-title="央视联通",CCTV17
 http://159.75.85.63:36666/migu/673168256.m3u8?migutoken=ce99cb849f2d3e384343413d680b9b9a38b0efbce843d3f166b183b8d4d0046bcaee275133e9b15f03e8383c08698af94d5599796cfa53489d81bcd46606bb6496189a307b75121a4bf59480cb
 #EXTINF:-1 tvg-id="" tvg-name="陕西卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/陕西卫视.png" group-title="卫视联通",陕西卫视
